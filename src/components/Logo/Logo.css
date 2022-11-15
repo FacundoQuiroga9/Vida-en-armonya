@@ -1,0 +1,27 @@
+.logo-container{
+  padding: 0;
+}
+.logo-svg{
+  width: 6rem;
+  cursor: pointer;
+  transition: all .5s;
+}
+.logo:hover{
+  fill: #170C18;
+}
+
+@media (min-width: 480px){
+  .logo-svg{
+    width: 7rem;
+  }
+}
+@media (min-width: 750px){
+  .logo-svg{
+    width: 8rem;
+  }
+}
+@media (min-width: 1000px){
+  .logo-svg{
+    width: 9rem;
+  }
+}
